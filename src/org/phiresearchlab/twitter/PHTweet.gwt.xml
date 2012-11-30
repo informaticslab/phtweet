@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='PHTweet'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name="com.google.gwt.user.User"/>
+  <inherits name="com.google.gwt.user.theme.standard.Standard"/>
+  <inherits name="com.objetdirect.tatami.Tatami"/>
+  <inherits name='org.vaadin.gwtgraphics.GWTGraphics'/>
+  <inherits name="org.cobogw.gwt.user.User"/>
+
+<!-- 
+  <inherits name="com.allen_sauer.gwt.log.gwt-log-DEBUG"/>
+  <inherits name='gov.cdc.irdu.gwtjit.GWTJIT'/>
+  <script src="jit.js"></script>
+-->
+
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class="org.phiresearchlab.twitter.client.PHTweet"/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path="client"/>
+  <source path="domain"/>
+  <source path="shared"/>
+
+</module>

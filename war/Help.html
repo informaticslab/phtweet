@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Health News Help</title>
+	
+	<style type="text/css">
+	
+	body {
+		background-image: url("images/paper_background.jpg");
+	}
+	
+	H1.title {
+		text-align: center;
+		text-family:"Lucida Grande", Verdana;		
+	}
+	
+	</style>
+</head>
+<body>
+
+	<H1 class="title">PHTweet Help</H1>
+
+	<br><br>
+
+	<p>
+		Developed by:  Public Health Informatics and Technology Program Office:  Informatics R&amp;D Lab
+	</p>
+
+	<H4>WHAT IS THIS PROTOTYPE:</H4>
+	<p>
+		This prototype is a Twitter visualization tool.   
+	</p>
+
+	<H4>WHAT DOES THIS PROTOTYPE DO?:</H4>
+	<p>
+		The user enters terms that they are interested in tracking via the configuration panel. The prototype
+		tracks Tweets that contain the tracking terms. It display various attributes regarding the tracked Tweet
+		terms. Each tracked term is represented by a circle or "Tweet Bubble", which is plotted onto a two dimensional
+		graph. The following list provides details about what information is presented in the PHTweet graphics:
+	</p>
+	<ul>
+		<li>
+			The radius of the circle is the absolute value of the delta in number of Tweets between the last minute
+		    and the previous minute. Essentially, it depicts the minute-by-minute rate of change.
+	 	</li>
+		<li>
+			Circles that are above the central, horizontal, blue line are those where the change in the number of
+			minute-to-minute Tweets are positive. Those below the line represent those where the change is negative.
+			The height above (or depth below) the central blue line represents the value of the delta. 
+		</li>
+		<li>
+			Those Tweet terms which are growing are red in color. Those that are decreasing are blue. The opacity
+			of the color represents the percentage of change as it relates to the total number of past minute Tweets
+			for that term.
+		</li>
+		<li>
+			The position of the circle on the x-axis shows the number of Tweets for that term over the past hour.
+		</li>
+	</ul>
+
+	<p>
+		There are two sliders above the graphics. The one to the left sets the refresh rate in number of seconds.
+		It defaults to 15 seconds. The slider on the right sets the visibility threshold. This is based on the 
+		percentage rate of change. By default, it is set to 10%. Any Tweet terms where the percentage rate of change
+		is below 10% will not be shown. 
+	</p>
+
+	<p>
+		Hovering over a circle with the mouse pointer will generate a popup containing a list of relevant data for
+		that particular Tweet term. 
+	</p>
+
+	<H4>FUTURE ENHANCEMENTS:</H4>
+
+	<p>
+		If you have any questions or feedback please email us at 
+		<a href="mailto:informaticslab@cdc.gov">Informatics Lab</a>
+	</p>
+	
+</body>
+</html>

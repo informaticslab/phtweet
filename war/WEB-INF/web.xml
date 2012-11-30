@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  	<!-- Load Spring Context -->
+	<context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath*:META-INF/spring/applicationContext*.xml</param-value>
+    </context-param>
+    
+  	<listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+	
+  
+  	<!-- Servlets -->
+  	
+  	<servlet>
+  		<servlet-name>springGwtRemoteServiceServlet</servlet-name>
+  		<servlet-class>org.spring4gwt.server.SpringGwtRemoteServiceServlet</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>springGwtRemoteServiceServlet</servlet-name>
+  		<url-pattern>/PHTweet/services/*</url-pattern>
+  	</servlet-mapping>
+  
+  	<!-- Default page to serve -->
+  	<welcome-file-list>
+    	<welcome-file>PHTweet.html</welcome-file>
+  	</welcome-file-list>
+
+</web-app>

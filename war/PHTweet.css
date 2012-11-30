@@ -1,0 +1,230 @@
+.mainPanel {
+	background-color: white;
+	width: 100%;
+	height: 100%;	
+}
+
+.headerPanel {
+	background-color: #4c4a4a;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana;
+	width: 100%;
+	height: 40px;
+	top: 0px;	
+}
+
+.canvasPanel {
+	width: 100%;
+	height: 100%;	
+}
+
+.footerPanel {
+	color: white;
+	background-color: #4c4a4a;
+	font-size: 8px;
+	font-family: Verdana;
+	width: 100%;
+	height: 20px;
+    bottom: 0px;
+}
+
+.dateTimePicker {
+	background-color: #d3d3d3;	
+}
+
+.dateTimePickerMain {
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#datePickerBody {
+	padding-top: 20px;	
+	padding-bottom: 20px;
+	padding-left: 6px;
+}
+
+.dateTimeHeader {
+	border-bottom: 1px solid black;
+}
+
+.timePanel {
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+.buttonPanel {
+	background-color: #d3d3d3;	
+    bottom: 0px;
+    height: 40px;
+}
+
+.title {
+	color: seagreen;
+	font-size: 16px;
+	font-family: Verdana;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.imageButton {
+	cursor: pointer;
+}
+
+.dateLabel {
+	font-weight: normal;	
+}
+
+.termsPanel {
+	background-color: #FDF0D0;;
+	height: 562px;
+	border-left: 0px;
+	border-top: 1px solid black;
+	border-right: 0px;
+	border-bottom: 1px solid black;
+	font-family: Verdana;
+	font-size: 14px;	
+	z-index: 999;
+}
+
+.tabImage {
+	cursor: pointer;
+	position: absolute;
+	z-index: 9999;	
+}
+
+.termsWorkPanel {
+	background-color: #FDF0D0;;
+}
+
+.termsAddRemovePanel {
+	padding-bottom: 10px;	
+}
+
+.termsButtonPanel {
+	padding-bottom: 10px;	
+}
+
+.categorySelectPanel {
+	padding-bottom: 8px;	
+}
+
+.categorySelectLabel {
+	font-size: 16px;	
+}
+
+.termTextColumn {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.termEnableColumn {
+	text-align: center;	
+}
+
+.termEntry {
+	background-color: white;
+	color: black;	
+	font-family: Verdana;
+	font-size: 14px;	
+}
+
+.emptyTermEntry {
+	background-color: white;
+	opacity: 0.3;	
+	font-family: Verdana;
+	font-size: 14px;	
+}
+
+.allTermToggle {
+	cursor: pointer;
+}
+
+.bubble {
+	cursor: pointer;	
+}
+
+.bubbleCentralPanel {
+	background-color: white;
+}
+
+.bubblePanel {
+	padding-left: 40px;	
+}
+
+.graphLabel {
+	padding-left: 10px;	
+}
+
+.graphCentralPanel {
+	background-color: #E8AA0D;	
+	border: 0px solid #E8AA0D;
+}
+
+.gridPanel {
+		
+}
+
+.termGrid {
+	
+}
+
+.leftGridCell {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 12px;
+}
+
+.rightGridCell {
+	border-bottom: 1px solid black;
+	padding: 12px;
+}
+
+.lastLeftGridCell {
+	border-right: 1px solid black;
+	padding: 12px;
+}
+
+.lastRightGridCell {
+	padding: 12px;
+}
+
+.legendPanel {
+	background-color: #F0EEEE;
+	color: #4A4A4A;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	border: 1px solid #DEDEDE;	
+	padding: 10px;
+}
+
+.toolTipMainPanel {
+	padding: 4px 10px 10px 10px;	
+	font-family: Verdana;
+	font-size: 12px;
+	color: black;
+}
+
+.toolTipHeader {
+	width: 100%;
+	font-weight: bold;
+	border-bottom: 1px solid black;	
+}
+
+.toolTipTable {
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border-spacing: 6px;
+}
+
+.toolTipTableHeader {
+	font-weight: bold;	
+	text-align: right;
+}
+
